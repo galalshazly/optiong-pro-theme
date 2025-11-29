@@ -1,0 +1,24 @@
+<section class="og-hero">
+    <div>
+        <div class="og-hero__eyebrow">OptionG PRO · White × Gold</div>
+        <h1 class="og-hero__title">
+            اكتشف عطرك المفضل<br>بتصميم أبيض × ذهبي فاخر
+        </h1>
+        <p class="og-hero__subtitle">
+            ثيم مصمم لمتاجر العطور والهدايا الراقية، بتجربة استخدام سلسة على الجوال وسطح المكتب، مع هيدر MegaMenu ومرونة عالية في التخصيص.
+        </p>
+
+        <div class="og-hero__actions">
+            <a href="/products" class="og-btn og-btn--primary">تسوّق العطور الآن</a>
+            <a href="#new-arrivals" class="og-btn og-btn--ghost">مشاهدة الجديد</a>
+        </div>
+    </div>
+
+    <div class="og-hero__media">
+        {% if theme.settings.get('hero_image') %}
+            <img src="{{ theme.settings.get('hero_image') }}" alt="OptionG Hero">
+        {% else %}
+            <img src="https://via.placeholder.com/640x480.png?text=OptionG+Hero" alt="OptionG Hero Placeholder">
+        {% endif %}
+    </div>
+</section>

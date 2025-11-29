@@ -1,0 +1,21 @@
+{
+    "name": "OptionG PRO White Gold",
+    "version": "1.0.0",
+    "description": "ثيم OptionG PRO بتصميم أبيض × ذهبي مع هيدر MegaMenu وصفحة رئيسية غنية لمتاجر العطور والهدايا الفاخرة.",
+    "author": "OptionG",
+    "pages": {
+        "home": {
+            "title": "الصفحة الرئيسية",
+            "route": "/",
+            "view": "pages/index.twig"
+        }
+    },
+    "assets": {
+        "styles": [
+            "assets/styles/app.css"
+        ],
+        "scripts": [
+            "assets/js/app.js"
+        ]
+    }
+}

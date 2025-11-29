@@ -1,0 +1,21 @@
+{% if theme.settings.get('show_story', true) %}
+<section class="og-story">
+    <div class="og-story__text">
+        <h2>قصة OptionG</h2>
+        <p>
+            OptionG هو ثيم مخصص للمتاجر التي تبحث عن هوية فاخرة بتصميم أبيض × ذهبي،
+            مع تجربة تسوّق مريحة للعملاء، وتخصيص سهل من لوحة التحكم في سلة.
+        </p>
+        <p>
+            يمكنك استخدامه لمتاجر العطور، الهدايا، الإكسسوارات، أو أي منتج يحتاج إلى عرض أنيق ونظيف.
+        </p>
+    </div>
+    <div>
+        {% if theme.settings.get('story_image') %}
+            <img src="{{ theme.settings.get('story_image') }}" alt="قصة OptionG" style="width:100%;border-radius:20px;">
+        {% else %}
+            <img src="https://via.placeholder.com/540x360.png?text=OptionG+Story" alt="قصة OptionG" style="width:100%;border-radius:20px;">
+        {% endif %}
+    </div>
+</section>
+{% endif %}

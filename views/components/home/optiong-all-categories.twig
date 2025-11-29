@@ -1,0 +1,29 @@
+{% if theme.settings.get('show_all_categories', true) %}
+<section class="og-section">
+    <div class="og-section__head">
+        <div>
+            <h2 class="og-section__title">الأقسام الرئيسية</h2>
+            <p class="og-section__subtitle">تصفح حسب نوع العطر الذي يناسبك.</p>
+        </div>
+    </div>
+
+    <div class="og-categories__grid">
+        <div class="og-cat-card">
+            <h3>عطور رجالية</h3>
+            <a href="/category/mens-perfumes">تصفّح الآن</a>
+        </div>
+        <div class="og-cat-card">
+            <h3>عطور نسائية</h3>
+            <a href="/category/womens-perfumes">تصفّح الآن</a>
+        </div>
+        <div class="og-cat-card">
+            <h3>عطور للجنسين</h3>
+            <a href="/category/unisex">تصفّح الآن</a>
+        </div>
+        <div class="og-cat-card">
+            <h3>هدايا وباقات</h3>
+            <a href="/category/gifts">تصفّح الآن</a>
+        </div>
+    </div>
+</section>
+{% endif %}

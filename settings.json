@@ -1,0 +1,97 @@
+[
+    {
+        "type": "header",
+        "content": "إعدادات الألوان والخلفية"
+    },
+    {
+        "type": "color",
+        "id": "primary_color",
+        "label": "اللون الذهبي الأساسي",
+        "default": "#D4AF37"
+    },
+    {
+        "type": "color",
+        "id": "background_color",
+        "label": "لون الخلفية الأساسي",
+        "default": "#FFFFFF"
+    },
+    {
+        "type": "select",
+        "id": "theme_preset",
+        "label": "نمط الألوان الجاهز",
+        "options": [
+            {
+                "label": "White × Gold",
+                "value": "white_gold"
+            },
+            {
+                "label": "Black × Gold",
+                "value": "black_gold"
+            },
+            {
+                "label": "Beige × Gold",
+                "value": "beige_gold"
+            }
+        ],
+        "default": "white_gold"
+    },
+    {
+        "type": "checkbox",
+        "id": "dark_mode",
+        "label": "تفعيل الوضع الداكن كلَيل بديل",
+        "default": false
+    },
+    {
+        "type": "header",
+        "content": "صور الصفحة الرئيسية"
+    },
+    {
+        "type": "image",
+        "id": "hero_image",
+        "label": "صورة الهيرو الرئيسية"
+    },
+    {
+        "type": "image",
+        "id": "mens_image",
+        "label": "صورة سكشن العطور الرجالية"
+    },
+    {
+        "type": "image",
+        "id": "story_image",
+        "label": "صورة سكشن قصة OptionG"
+    },
+    {
+        "type": "header",
+        "content": "إعدادات ظهور السكاشن"
+    },
+    {
+        "type": "checkbox",
+        "id": "show_new_arrivals",
+        "label": "عرض سكشن وصل حديثاً",
+        "default": true
+    },
+    {
+        "type": "checkbox",
+        "id": "show_best_sellers",
+        "label": "عرض سكشن الأكثر مبيعاً",
+        "default": true
+    },
+    {
+        "type": "checkbox",
+        "id": "show_all_categories",
+        "label": "عرض سكشن الأقسام الرئيسية",
+        "default": true
+    },
+    {
+        "type": "checkbox",
+        "id": "show_story",
+        "label": "عرض سكشن قصة OptionG",
+        "default": true
+    },
+    {
+        "type": "text",
+        "id": "home_welcome_text",
+        "label": "نص ترحيبي مختصر في الصفحة الرئيسية",
+        "default": "مرحباً بك في OptionG - وجهتك للعطور والهدايا الراقية بتصميم أبيض × ذهبي."
+    }
+]

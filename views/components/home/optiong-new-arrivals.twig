@@ -1,0 +1,34 @@
+{% if theme.settings.get('show_new_arrivals', true) %}
+<section class="og-section" id="new-arrivals">
+    <div class="og-section__head">
+        <div>
+            <h2 class="og-section__title">وصل حديثاً</h2>
+            <p class="og-section__subtitle">أحدث الإضافات من العطور المختارة بعناية.</p>
+        </div>
+    </div>
+
+    {# هنا يمكن استخدام كومبوننت منتجات سلة إن توفر، مؤقتاً نعرض placeholder #}
+    <div class="og-products-grid">
+        <div class="og-product-card">
+            <div class="og-product-card__image"></div>
+            <div class="og-product-card__title">عطر تجريبي 1</div>
+            <div class="og-product-card__price">299 ر.س</div>
+        </div>
+        <div class="og-product-card">
+            <div class="og-product-card__image"></div>
+            <div class="og-product-card__title">عطر تجريبي 2</div>
+            <div class="og-product-card__price">349 ر.س</div>
+        </div>
+        <div class="og-product-card">
+            <div class="og-product-card__image"></div>
+            <div class="og-product-card__title">عطر تجريبي 3</div>
+            <div class="og-product-card__price">399 ر.س</div>
+        </div>
+        <div class="og-product-card">
+            <div class="og-product-card__image"></div>
+            <div class="og-product-card__title">عطر تجريبي 4</div>
+            <div class="og-product-card__price">259 ر.س</div>
+        </div>
+    </div>
+</section>
+{% endif %}

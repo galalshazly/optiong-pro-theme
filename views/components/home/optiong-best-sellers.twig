@@ -1,0 +1,33 @@
+{% if theme.settings.get('show_best_sellers', true) %}
+<section class="og-section">
+    <div class="og-section__head">
+        <div>
+            <h2 class="og-section__title">الأكثر مبيعاً</h2>
+            <p class="og-section__subtitle">عطور حصلت على إعجاب عملائنا.</p>
+        </div>
+    </div>
+
+    <div class="og-products-grid">
+        <div class="og-product-card">
+            <div class="og-product-card__image"></div>
+            <div class="og-product-card__title">عطر فاخر 1</div>
+            <div class="og-product-card__price">459 ر.س</div>
+        </div>
+        <div class="og-product-card">
+            <div class="og-product-card__image"></div>
+            <div class="og-product-card__title">عطر فاخر 2</div>
+            <div class="og-product-card__price">499 ر.س</div>
+        </div>
+        <div class="og-product-card">
+            <div class="og-product-card__image"></div>
+            <div class="og-product-card__title">عطر فاخر 3</div>
+            <div class="og-product-card__price">429 ر.س</div>
+        </div>
+        <div class="og-product-card">
+            <div class="og-product-card__image"></div>
+            <div class="og-product-card__title">عطر فاخر 4</div>
+            <div class="og-product-card__price">379 ر.س</div>
+        </div>
+    </div>
+</section>
+{% endif %}
